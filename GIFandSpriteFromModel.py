@@ -168,7 +168,7 @@ scene.camera.rotation_euler = Euler((radians(90), 0, 0), 'XYZ')
 #exit(0)
 
 print("\n Saving a .blend file of the scene")
-bpy.ops.wm.save_as_mainfile(filepath="/home/npunito/TransformMeshToGIFSprite/OBJscene.blend")
+bpy.ops.wm.save_as_mainfile(filepath="OBJscene.blend")
 
 
 #bpy.ops.view3d.dolly()
